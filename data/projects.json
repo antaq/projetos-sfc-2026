@@ -1,0 +1,664 @@
+{
+  "projects": [
+    {
+      "id": "sispat",
+      "name": "SisPAT",
+      "description": "Sistema de Controle Patrimonial dos Portos Organizados",
+      "createdAt": "2026-03-22",
+      "tasks": [
+        {
+          "id": "11",
+          "name": "Finalizar Manual de Inventário",
+          "group": "CONCLUÍDO",
+          "responsible": [
+            "sfc"
+          ],
+          "startDate": "2025-06-15",
+          "dueDate": "2025-09-30",
+          "priority": "none",
+          "status": "CONCLUÍDO",
+          "comments": "",
+          "progress": 100
+        },
+        {
+          "id": "12",
+          "name": "Solicitar criação de e-mail",
+          "group": "CONCLUÍDO",
+          "responsible": [
+            "sfc"
+          ],
+          "startDate": "2025-10-01",
+          "dueDate": "2025-10-15",
+          "priority": "none",
+          "status": "CONCLUÍDO",
+          "comments": "",
+          "progress": 100
+        },
+        {
+          "id": "7",
+          "name": "Piloto CODEBA / TECON Salvador",
+          "group": "PILOTO",
+          "responsible": [
+            "artur",
+            "kênia"
+          ],
+          "startDate": "2025-12-01",
+          "dueDate": "2026-04-07",
+          "priority": "none",
+          "status": "PILOTO",
+          "comments": "",
+          "progress": 0
+        },
+        {
+          "id": "6",
+          "name": "Piloto TCP",
+          "group": "PILOTO",
+          "responsible": [
+            "artur",
+            "kênia"
+          ],
+          "startDate": "2026-02-01",
+          "dueDate": "2026-04-07",
+          "priority": "none",
+          "status": "PILOTO",
+          "comments": "",
+          "progress": 0
+        },
+        {
+          "id": "8",
+          "name": "Piloto MultiTerminais",
+          "group": "PILOTO",
+          "responsible": [
+            "artur",
+            "kênia"
+          ],
+          "startDate": "2026-02-01",
+          "dueDate": "2026-04-07",
+          "priority": "none",
+          "status": "PILOTO",
+          "comments": "",
+          "progress": 0
+        },
+        {
+          "id": "9",
+          "name": "Piloto Cedro Mineração",
+          "group": "PILOTO",
+          "responsible": [
+            "artur",
+            "kênia"
+          ],
+          "startDate": "2026-03-01",
+          "dueDate": "2026-04-07",
+          "priority": "none",
+          "status": "PILOTO",
+          "comments": "",
+          "progress": 0
+        },
+        {
+          "id": "3",
+          "name": "Envio do Processo para a DG",
+          "group": "EXECUÇÃO",
+          "responsible": [
+            "flávia",
+            "pedro"
+          ],
+          "startDate": "2025-10-01",
+          "dueDate": "2025-11-17",
+          "priority": "none",
+          "status": "EXECUÇÃO",
+          "comments": "",
+          "progress": 0
+        },
+        {
+          "id": "5",
+          "name": "Divulgação Manual e Evento YouTube",
+          "group": "EXECUÇÃO",
+          "responsible": [
+            "sfc"
+          ],
+          "startDate": "2026-03-01",
+          "dueDate": "2026-04-07",
+          "priority": "none",
+          "status": "EXECUÇÃO",
+          "comments": "",
+          "progress": 0
+        },
+        {
+          "id": "2",
+          "name": "Workshop SisPAT",
+          "group": "EXECUÇÃO",
+          "responsible": [
+            "sfc"
+          ],
+          "startDate": "2026-04-08",
+          "dueDate": "2026-04-08",
+          "priority": "none",
+          "status": "EXECUÇÃO",
+          "comments": "",
+          "progress": 0
+        },
+        {
+          "id": "4",
+          "name": "Prazo Final: Envio dos Inventários",
+          "group": "EXECUÇÃO",
+          "responsible": [
+            "empresas"
+          ],
+          "startDate": "2026-04-15",
+          "dueDate": "2026-04-30",
+          "priority": "none",
+          "status": "EXECUÇÃO",
+          "comments": "",
+          "progress": 0
+        },
+        {
+          "id": "1",
+          "name": "Fase 2 - Fiscalização dos Inventários",
+          "group": "FISCALIZAÇÃO",
+          "responsible": [
+            "gcor"
+          ],
+          "startDate": "2026-05-01",
+          "dueDate": "2026-06-30",
+          "priority": "none",
+          "status": "FISCALIZAÇÃO",
+          "comments": "",
+          "progress": 0
+        },
+        {
+          "id": "10",
+          "name": "Planejamento Fase 2 - Fisc. Remota",
+          "group": "PLANEJAMENTO",
+          "responsible": [
+            "gcor",
+            "gpf"
+          ],
+          "startDate": "2026-05-01",
+          "dueDate": "2026-09-05",
+          "priority": "none",
+          "status": "PLANEJAMENTO",
+          "comments": "",
+          "progress": 0
+        }
+      ]
+    },
+    {
+      "id": "sai",
+      "name": "SAI",
+      "description": "Sistema de Acompanhamento de Investimentos",
+      "createdAt": "2026-03-22",
+      "tasks": [
+        {
+          "id": "s1",
+          "name": "Aprefeiçoamento da Interface",
+          "group": "EM PROGRESSO",
+          "responsible": [],
+          "startDate": "2026-01-26",
+          "dueDate": "2026-03-31",
+          "priority": "none",
+          "status": "EM PROGRESSO",
+          "comments": "FASE 1",
+          "progress": 50
+        },
+        {
+          "id": "s2",
+          "name": "Implementação Login GovBR",
+          "group": "EM PROGRESSO",
+          "responsible": [],
+          "startDate": "2026-02-15",
+          "dueDate": "2026-03-27",
+          "priority": "none",
+          "status": "EM PROGRESSO",
+          "comments": "FASE 1",
+          "progress": 50
+        },
+        {
+          "id": "s3",
+          "name": "PILOTO CODEBA / TECON Salvador",
+          "group": "PENDENTE",
+          "responsible": [],
+          "startDate": "2026-04-01",
+          "dueDate": "2026-04-30",
+          "priority": "none",
+          "status": "PENDENTE",
+          "comments": "FASE 1",
+          "progress": 0
+        },
+        {
+          "id": "s4",
+          "name": "Evento de Lançamento",
+          "group": "PENDENTE",
+          "responsible": [],
+          "startDate": "2026-05-01",
+          "dueDate": "2026-05-15",
+          "priority": "none",
+          "status": "PENDENTE",
+          "comments": "FASE 1",
+          "progress": 0
+        },
+        {
+          "id": "s5",
+          "name": "Apresentação e Aprovação Diretoria",
+          "group": "PENDENTE",
+          "responsible": [],
+          "startDate": "2026-05-15",
+          "dueDate": "2026-05-30",
+          "priority": "none",
+          "status": "PENDENTE",
+          "comments": "FASE 1",
+          "progress": 0
+        },
+        {
+          "id": "s6",
+          "name": "Análise de Requisitos REFIN",
+          "group": "EM PROGRESSO",
+          "responsible": [],
+          "startDate": "2026-01-26",
+          "dueDate": "2026-05-01",
+          "priority": "none",
+          "status": "EM PROGRESSO",
+          "comments": "FASE 2",
+          "progress": 30
+        }
+      ]
+    },
+    {
+      "id": "enafis",
+      "name": "Enafis",
+      "description": "Encontro Nacional de Fiscalização",
+      "createdAt": "2026-03-22",
+      "tasks": [
+        {
+          "id": "e1",
+          "name": "Manifestação favorável",
+          "group": "EM PROGRESSO",
+          "responsible": [],
+          "startDate": "2026-01-01",
+          "dueDate": "2026-03-17",
+          "priority": "high",
+          "status": "EM PROGRESSO",
+          "comments": "",
+          "progress": 50
+        },
+        {
+          "id": "e2",
+          "name": "Aprovação pela Diretoria",
+          "group": "EM PROGRESSO",
+          "responsible": [],
+          "startDate": "2026-03-17",
+          "dueDate": "2026-03-31",
+          "priority": "high",
+          "status": "EM PROGRESSO",
+          "comments": "",
+          "progress": 30
+        },
+        {
+          "id": "e3",
+          "name": "Comunicado aos servidores",
+          "group": "NOT STARTED",
+          "responsible": [],
+          "startDate": "2026-04-01",
+          "dueDate": "2026-04-06",
+          "priority": "medium",
+          "status": "NOT STARTED",
+          "comments": "",
+          "progress": 0
+        },
+        {
+          "id": "e4",
+          "name": "Confirmação dos selecionados na visita técnica",
+          "group": "NOT STARTED",
+          "responsible": [],
+          "startDate": "2026-04-07",
+          "dueDate": "2026-04-10",
+          "priority": "medium",
+          "status": "NOT STARTED",
+          "comments": "",
+          "progress": 0
+        },
+        {
+          "id": "e5",
+          "name": "Contratação de empresa de ônibus para deslocamento para Paranaguá",
+          "group": "NOT STARTED",
+          "responsible": [],
+          "startDate": "2026-04-01",
+          "dueDate": "2026-04-15",
+          "priority": "high",
+          "status": "NOT STARTED",
+          "comments": "",
+          "progress": 0
+        },
+        {
+          "id": "e6",
+          "name": "Contratação do lanche",
+          "group": "NOT STARTED",
+          "responsible": [],
+          "startDate": "2026-04-01",
+          "dueDate": "2026-04-06",
+          "priority": "medium",
+          "status": "NOT STARTED",
+          "comments": "",
+          "progress": 0
+        },
+        {
+          "id": "e7",
+          "name": "Realização da capacitação",
+          "group": "NOT STARTED",
+          "responsible": [],
+          "startDate": "2026-06-15",
+          "dueDate": "2026-06-19",
+          "priority": "medium",
+          "status": "NOT STARTED",
+          "comments": "",
+          "progress": 0
+        },
+        {
+          "id": "e8",
+          "name": "Avaliação do Curso e emissão de certificados",
+          "group": "NOT STARTED",
+          "responsible": [],
+          "startDate": "2026-06-20",
+          "dueDate": "2026-06-26",
+          "priority": "medium",
+          "status": "NOT STARTED",
+          "comments": "",
+          "progress": 0
+        }
+      ]
+    },
+    {
+      "id": "dia-de-fiscal",
+      "name": "Dia de Fiscal",
+      "description": "Dia de Fiscal",
+      "createdAt": "2026-03-22",
+      "tasks": [
+        {
+          "id": "df1",
+          "name": "Manifestação favorável",
+          "group": "EM PROGRESSO",
+          "responsible": [
+            "SAF"
+          ],
+          "startDate": "2026-01-15",
+          "dueDate": "2026-04-01",
+          "priority": "none",
+          "status": "EM PROGRESSO",
+          "comments": "",
+          "progress": 50
+        },
+        {
+          "id": "df2",
+          "name": "Aprovação pela Diretoria",
+          "group": "NOT STARTED",
+          "responsible": [
+            "DG"
+          ],
+          "startDate": "2026-04-01",
+          "dueDate": "2026-04-15",
+          "priority": "none",
+          "status": "NOT STARTED",
+          "comments": "",
+          "progress": 0
+        },
+        {
+          "id": "df3",
+          "name": "Proposta de programação definitiva das visitas técnicas",
+          "group": "NOT STARTED",
+          "responsible": [
+            "GPF"
+          ],
+          "startDate": "2026-04-15",
+          "dueDate": "2026-05-18",
+          "priority": "none",
+          "status": "NOT STARTED",
+          "comments": "",
+          "progress": 0
+        },
+        {
+          "id": "df4",
+          "name": "Confirmação dos alunos nas respectivas visitas técnicas",
+          "group": "NOT STARTED",
+          "responsible": [
+            "Unidade do aluno"
+          ],
+          "startDate": "2026-05-18",
+          "dueDate": "2026-06-12",
+          "priority": "none",
+          "status": "NOT STARTED",
+          "comments": "",
+          "progress": 0
+        },
+        {
+          "id": "df5",
+          "name": "Realização da capacitação teórica",
+          "group": "NOT STARTED",
+          "responsible": [
+            "Instrutores"
+          ],
+          "startDate": "2026-08-15",
+          "dueDate": "2026-08-31",
+          "priority": "none",
+          "status": "NOT STARTED",
+          "comments": "",
+          "progress": 0
+        },
+        {
+          "id": "df6",
+          "name": "Realização das visitas técnicas",
+          "group": "NOT STARTED",
+          "responsible": [
+            "SFC",
+            "GPF",
+            "GREST"
+          ],
+          "startDate": "2026-08-31",
+          "dueDate": "2026-09-02",
+          "priority": "none",
+          "status": "NOT STARTED",
+          "comments": "",
+          "progress": 0
+        }
+      ]
+    },
+    {
+      "id": "sfis-novo",
+      "name": "SFIS Novo",
+      "description": "Reformulação do Sistema de Fiscalização - Fase 1 (Controle de Processos)",
+      "createdAt": "2026-03-22",
+      "tasks": [
+        {
+          "id": "sf1",
+          "name": "Reestruturação da Base de Dados",
+          "group": "CONCLUÍDO",
+          "responsible": ["GPF"],
+          "startDate": "2026-02-01",
+          "dueDate": "2026-02-28",
+          "priority": "high",
+          "status": "CONCLUÍDO",
+          "comments": "Novo schema, normalização de tabelas, views e procedures",
+          "progress": 100
+        },
+        {
+          "id": "sf2",
+          "name": "Migração de Dados Legados para Novo Schema",
+          "group": "CONCLUÍDO",
+          "responsible": ["GPF"],
+          "startDate": "2026-02-15",
+          "dueDate": "2026-03-15",
+          "priority": "high",
+          "status": "CONCLUÍDO",
+          "comments": "Scripts de migração, validação de integridade, mapeamento de dados",
+          "progress": 100
+        },
+        {
+          "id": "sf3",
+          "name": "Setup Ambiente APEX e Template Base",
+          "group": "EM PROGRESSO",
+          "responsible": ["GPF"],
+          "startDate": "2026-03-01",
+          "dueDate": "2026-03-20",
+          "priority": "high",
+          "status": "EM PROGRESSO",
+          "comments": "App APEX, tema, layout master, componentes reutilizáveis, autenticação",
+          "progress": 80
+        },
+        {
+          "id": "sf4",
+          "name": "Módulo Configuração - Requisitos das Normas e Itens",
+          "group": "EM PROGRESSO",
+          "responsible": ["GPF"],
+          "startDate": "2026-03-15",
+          "dueDate": "2026-04-05",
+          "priority": "medium",
+          "status": "EM PROGRESSO",
+          "comments": "CRUD de Requisitos das Normas, Itens das Normas, filtros por superintendência",
+          "progress": 40
+        },
+        {
+          "id": "sf5",
+          "name": "Módulo Configuração - Alertas e Formas de Encerramento",
+          "group": "NOT STARTED",
+          "responsible": ["GPF"],
+          "startDate": "2026-04-01",
+          "dueDate": "2026-04-15",
+          "priority": "medium",
+          "status": "NOT STARTED",
+          "comments": "Alertas de Prazo, Alertas de Situação da Fiscalização, Formas de Encerramento do Procedimento",
+          "progress": 0
+        },
+        {
+          "id": "sf6",
+          "name": "Módulo Planejamento - PAF e Cronogramas",
+          "group": "NOT STARTED",
+          "responsible": ["GPF"],
+          "startDate": "2026-04-10",
+          "dueDate": "2026-05-05",
+          "priority": "high",
+          "status": "NOT STARTED",
+          "comments": "Cadastro e gestão do PAF, Cronogramas de Fiscalização, vinculação com normas",
+          "progress": 0
+        },
+        {
+          "id": "sf7",
+          "name": "Módulo Execução - Procedimentos de Fiscalização",
+          "group": "NOT STARTED",
+          "responsible": ["GPF"],
+          "startDate": "2026-04-28",
+          "dueDate": "2026-05-25",
+          "priority": "high",
+          "status": "NOT STARTED",
+          "comments": "Abertura, edição, workflow de procedimentos, vinculação com PAF",
+          "progress": 0
+        },
+        {
+          "id": "sf8",
+          "name": "Módulo Execução - Ordens de Serviço",
+          "group": "NOT STARTED",
+          "responsible": ["GPF"],
+          "startDate": "2026-05-15",
+          "dueDate": "2026-06-05",
+          "priority": "medium",
+          "status": "NOT STARTED",
+          "comments": "Geração, atribuição e acompanhamento de Ordens de Serviço",
+          "progress": 0
+        },
+        {
+          "id": "sf9",
+          "name": "Módulo Controle - Acompanhamento e Irregularidades",
+          "group": "NOT STARTED",
+          "responsible": ["GPF"],
+          "startDate": "2026-05-25",
+          "dueDate": "2026-06-15",
+          "priority": "high",
+          "status": "NOT STARTED",
+          "comments": "Registro de irregularidades, itens de acompanhamento, anexos, histórico",
+          "progress": 0
+        },
+        {
+          "id": "sf10",
+          "name": "Módulo Encerramento de Procedimentos",
+          "group": "NOT STARTED",
+          "responsible": ["GPF"],
+          "startDate": "2026-06-10",
+          "dueDate": "2026-06-25",
+          "priority": "medium",
+          "status": "NOT STARTED",
+          "comments": "Fluxo de encerramento, cancelamento, validações de pendências",
+          "progress": 0
+        },
+        {
+          "id": "sf11",
+          "name": "Módulo Relatórios - Operacionais",
+          "group": "NOT STARTED",
+          "responsible": ["GPF"],
+          "startDate": "2026-06-20",
+          "dueDate": "2026-07-10",
+          "priority": "medium",
+          "status": "NOT STARTED",
+          "comments": "Relatório do PAF, Pendências, Resumo de Execução, Fiscalizações Realizadas",
+          "progress": 0
+        },
+        {
+          "id": "sf12",
+          "name": "Módulo Relatórios - Gerenciais e Gráficos",
+          "group": "NOT STARTED",
+          "responsible": ["GPF"],
+          "startDate": "2026-07-01",
+          "dueDate": "2026-07-15",
+          "priority": "medium",
+          "status": "NOT STARTED",
+          "comments": "Quadros Analíticos, Sintéticos, Gráfico de Fiscalizações, dashboards",
+          "progress": 0
+        },
+        {
+          "id": "sf13",
+          "name": "Integração e Testes Unitários",
+          "group": "NOT STARTED",
+          "responsible": ["GPF"],
+          "startDate": "2026-07-10",
+          "dueDate": "2026-07-25",
+          "priority": "high",
+          "status": "NOT STARTED",
+          "comments": "Testes de fluxo completo, integração entre módulos, validação de regras de negócio",
+          "progress": 0
+        },
+        {
+          "id": "sf14",
+          "name": "Testes de Aceitação com Usuários (UAT)",
+          "group": "NOT STARTED",
+          "responsible": ["GPF", "SFC"],
+          "startDate": "2026-07-20",
+          "dueDate": "2026-08-05",
+          "priority": "high",
+          "status": "NOT STARTED",
+          "comments": "Homologação com fiscais e gestores, coleta de feedback, ajustes de usabilidade",
+          "progress": 0
+        },
+        {
+          "id": "sf15",
+          "name": "Correções e Ajustes Pós-UAT",
+          "group": "NOT STARTED",
+          "responsible": ["GPF"],
+          "startDate": "2026-08-01",
+          "dueDate": "2026-08-15",
+          "priority": "high",
+          "status": "NOT STARTED",
+          "comments": "Correções de bugs, ajustes de interface, otimização de performance",
+          "progress": 0
+        },
+        {
+          "id": "sf16",
+          "name": "Deploy em Produção e Go-Live Fase 1",
+          "group": "NOT STARTED",
+          "responsible": ["GPF", "GTI"],
+          "startDate": "2026-08-15",
+          "dueDate": "2026-08-28",
+          "priority": "urgent",
+          "status": "NOT STARTED",
+          "comments": "Migração final, deploy, monitoramento pós-go-live, suporte inicial",
+          "progress": 0
+        }
+      ]
+    }
+  ]
+}
