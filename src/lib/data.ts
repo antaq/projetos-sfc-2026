@@ -2,14 +2,26 @@ import fs from "fs";
 import path from "path";
 import { ProjectsData, Project, Task } from "@/types";
 
-const VOLUME_PATH = "/app/data/projects.json";
+const VOLUME_DIR = "/app/persistent";
+const VOLUME_PATH = path.join(VOLUME_DIR, "projects.json");
 const LOCAL_PATH = path.join(process.cwd(), "data", "projects.json");
-const DATA_PATH = fs.existsSync(path.dirname(VOLUME_PATH)) ? VOLUME_PATH : LOCAL_PATH;
+const SEED_PATH = path.join(process.cwd(), "data", "projects.json");
+
+function getDataPath(): string {
+  if (fs.existsSync(VOLUME_DIR)) return VOLUME_PATH;
+  return LOCAL_PATH;
+}
+
+const DATA_PATH = getDataPath();
 
 function ensureData(): void {
   if (!fs.existsSync(DATA_PATH)) {
-    const seed = fs.readFileSync(LOCAL_PATH, "utf-8");
-    fs.writeFileSync(DATA_PATH, seed, "utf-8");
+    // Seed from the bundled data/ shipped with the build
+    if (fs.existsSync(SEED_PATH)) {
+      fs.copyFileSync(SEED_PATH, DATA_PATH);
+    } else {
+      fs.writeFileSync(DATA_PATH, JSON.stringify({ projects: [] }, null, 2), "utf-8");
+    }
   }
 }
 
