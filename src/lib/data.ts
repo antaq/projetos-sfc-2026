@@ -2,9 +2,19 @@ import fs from "fs";
 import path from "path";
 import { ProjectsData, Project, Task } from "@/types";
 
-const DATA_PATH = path.join(process.cwd(), "data", "projects.json");
+const VOLUME_PATH = "/app/data/projects.json";
+const LOCAL_PATH = path.join(process.cwd(), "data", "projects.json");
+const DATA_PATH = fs.existsSync(path.dirname(VOLUME_PATH)) ? VOLUME_PATH : LOCAL_PATH;
+
+function ensureData(): void {
+  if (!fs.existsSync(DATA_PATH)) {
+    const seed = fs.readFileSync(LOCAL_PATH, "utf-8");
+    fs.writeFileSync(DATA_PATH, seed, "utf-8");
+  }
+}
 
 export function readData(): ProjectsData {
+  ensureData();
   const raw = fs.readFileSync(DATA_PATH, "utf-8");
   return JSON.parse(raw);
 }
