@@ -317,6 +317,18 @@
           "progress": 0
         },
         {
+          "id": "e9",
+          "name": "Definição de temas para capacitação",
+          "group": "NOT STARTED",
+          "responsible": [],
+          "startDate": "2026-03-24",
+          "dueDate": "2026-04-17",
+          "priority": "medium",
+          "status": "NOT STARTED",
+          "comments": "",
+          "progress": 0
+        },
+        {
           "id": "e5",
           "name": "Contratação de empresa de ônibus para deslocamento para Paranaguá",
           "group": "NOT STARTED",
