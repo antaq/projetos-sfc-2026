@@ -15,7 +15,7 @@ export default function Header() {
         />
         <div>
           <h1 className="text-2xl font-semibold">
-            Projetos GPF 2026
+            Projetos SFC 2026
           </h1>
           <p className="text-sm opacity-90">
             Gerência de Planejamento e Inteligência da Fiscalização - SFC

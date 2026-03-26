@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Projetos GPF 2026",
+  title: "Projetos SFC 2026",
   description: "Gerenciador de Projetos - Gerência de Planejamento e Inteligência da Fiscalização",
 };
 
