@@ -80,17 +80,17 @@ export default function Home() {
       />
 
       {/* Toolbar */}
-      <div className="px-6 py-4 flex items-center justify-between">
-        <div>
+      <div className="px-4 sm:px-6 py-3 sm:py-4 flex items-center justify-between gap-3">
+        <div className="min-w-0 flex-1">
           {activeProject && (
-            <p className="text-sm text-gray-500">{activeProject.description}</p>
+            <p className="text-xs sm:text-sm text-gray-500">{activeProject.description}</p>
           )}
         </div>
         <ViewToggle activeView={activeView} onChangeView={setActiveView} />
       </div>
 
       {/* Content */}
-      <div className="flex-1 px-6 pb-6">
+      <div className="flex-1 px-4 sm:px-6 pb-4 sm:pb-6">
         {activeView === "gantt" ? (
           <GanttChart tasks={tasks} onTaskClick={handleTaskClick} />
         ) : (

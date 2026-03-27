@@ -37,7 +37,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR">
-      <body className={`${inter.className} bg-gray-50 antialiased`}>
+      <body className={`${inter.className} bg-gray-50 antialiased`} suppressHydrationWarning>
         {children}
         <ServiceWorkerRegister />
       </body>
